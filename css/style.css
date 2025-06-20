@@ -358,7 +358,7 @@ body {
     bottom: 40px;
     left: 50%;
     transform: translateX(-50%);
-    background-image: url("./images/ticket.png");
+    background-image: url("../images/ticket.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
