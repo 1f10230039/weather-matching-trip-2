@@ -304,13 +304,13 @@ body {
     background-repeat: no-repeat;
 }
 .hero.sunny {
-    background-image: url("/images/sunny.jpg");
+    background-image: url("./images/sunny.jpg");
 }
 .hero.cloudy {
-    background-image: url("/images/cloudy.jpg");
+    background-image: url("./images/cloudy.jpg");
 }
 .hero.rainy {
-    background-image: url("/images/rainy.jpg");
+    background-image: url("./images/rainy.jpg");
 }
 .overlay-hero {
     position: absolute;
@@ -358,7 +358,7 @@ body {
     bottom: 40px;
     left: 50%;
     transform: translateX(-50%);
-    background-image: url("/images/ticket.png");
+    background-image: url("./images/ticket.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -380,32 +380,32 @@ body {
     border-radius: 16px;
 }
 .spot.sunny{
-    background-image: url('/images/soramachi.webp');
+    background-image: url('./images/soramachi.webp');
     background-size: cover;
     animation: change-image-sunny 15s infinite;
 }
 @keyframes change-image-sunny {
-    0%, 100% {background-image: url('/images/soramachi.webp');}
-    50% {background-image: url('/images/rokugienn.webp');}
+    0%, 100% {background-image: url('./images/soramachi.webp');}
+    50% {background-image: url('./images/rokugienn.webp');}
 }
 .spot.cloudy {
-    background-image: url('/images/soramachi.webp');
+    background-image: url('./images/soramachi.webp');
     background-size: cover;
     animation: change-image-cloudy 15s infinite;
 }
 @keyframes change-image-cloudy {
-    0%, 100% {background-image: url('/images/soramachi.webp');}
-    50% {background-image: url('/images/rokugienn.webp');}
+    0%, 100% {background-image: url('./images/soramachi.webp');}
+    50% {background-image: url('./images/rokugienn.webp');}
 }
 .spot.rainy {
-    background-image: url('/images/tokyoeki.webp');
+    background-image: url('./images/tokyoeki.webp');
     background-size: cover;
     animation: change-image-rainy 15s infinite;
 }
 @keyframes change-image-rainy {
-    0%, 100% {background-image: url('/images/tokyoeki.webp');}
-    33% {background-image: url('/images/tokyohikarie.webp');}
-    66% {background-image: url('/images/tokyokokusaiforamu.webp');}
+    0%, 100% {background-image: url('./images/tokyoeki.webp');}
+    33% {background-image: url('./images/tokyohikarie.webp');}
+    66% {background-image: url('./images/tokyokokusaiforamu.webp');}
 }
 .hero .to-spot .under-btn {
     position: absolute;
