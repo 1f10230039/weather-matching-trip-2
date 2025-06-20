@@ -329,6 +329,7 @@ p {
     width: 600px;
     height: 100px;
     background-repeat: no-repeat;
+    margin-top: 20px;
 }
 .evaluation {
     display: flex;
@@ -472,7 +473,7 @@ footer {
     /*コメントの部分*/
     .comment {
         gap: 1.1rem;
-        margin-bottom: 1.1rem;
+        margin-bottom: .5rem;
     }
     .user-icon {
         width: 70px;
