@@ -128,7 +128,7 @@ const spots = {
       businessHours: "9:00~17:00(入館は16:30まで)",
       admissionFree: "300円 （65歳以上150円）",
       admissionFreeDetail: "小学生以下、都内在住・在学の中学生は無料",
-      officialSite: "https://www.tokyo-park.or.jp/teien/en/rikugien/outline.html",
+      officialSite: "https://www.tokyo-park.or.jp/park/rikugien/",
       officialSiteTitle: "概要 | 六義園 | 庭園へ行こう",
       commentText1: "曇りの日こそ庭園の静けさが美しい。苔の緑がやさしくて癒されます。",
       commentText2: "晴れた日より落ち着いて歩けるのが好き。池の水面も静かで風情がある。",
