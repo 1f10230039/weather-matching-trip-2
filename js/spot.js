@@ -18,12 +18,18 @@ overlay.addEventListener("click", () => {
   menuPanel.classList.remove("panel-open");
   overlay.classList.remove("open");
 });
+// リンクをクリックしたらメニューを閉じる
 const menuLinks = document.querySelectorAll(".menu a");
 menuLinks.forEach(link => {
   link.addEventListener("click", () => {
     menuPanel.classList.remove("panel-open");
     overlay.classList.remove("open");
   });
+});
+const subMenuToday = document.querySelector("#sub-menu-today");
+subMenuToday.addEventListener("click", () => {
+  menuPanel.classList.remove("panel-open");
+  overlay.classList.remove("open");
 });
 // スクロールしたら表示
 window.addEventListener("scroll", function() {
