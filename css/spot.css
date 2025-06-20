@@ -322,7 +322,7 @@ p {
     width: 70px;
 }
 .comment-desc {
-    background-image: url(/images/comment.png);
+    background-image: url(../images/comment.png);
     background-size: contain;
     width: 600px;
     height: 100px;
@@ -476,7 +476,7 @@ footer {
         width: 70px;
     }
     .comment-desc {
-        background-image: url(/images/comment-2.png);
+        background-image: url(../images/comment-2.png);
         width: 280px;
         height: 100px;
     }
