@@ -55,7 +55,7 @@ const spots = {
   sunny: [
     { id: "yoyogi", 
       name: "代々木公園", 
-      pin: "/images/pin-sunny.png",
+      pin: "images/pin-sunny.png",
       image: "images/yoyogi.webp", 
       text: "都会の森で深呼吸。木漏れ日と風を感じながら、ゆったりピクニックにぴったりの場所。",
       desc: "青空が広がる日には、まずここ。都心とは思えないほど広々とした緑が広がる代々木公園は、まさに晴れの日専用スポット。<br>芝生にシートを広げてピクニックしたり、ちょっと運動したり、本を読んだり…自分らしい過ごし方ができる自由な空間が広がっています。<br>太陽の光をたっぷり浴びながら、風に揺れる木々の音に耳をすませて。晴れた日だからこそ味わえる気持ちよさがある場所です。" ,
@@ -74,7 +74,7 @@ const spots = {
     },
     { id: "ueno", 
       name: "上野恩寵公園", 
-      pin: "/images/pin-sunny.png",
+      pin: "images/pin-sunny.png",
       image: "images/ueno.webp", 
       text: "広い空と季節の花が迎えてくれる、東京屈指のお散歩パラダイス。美術館めぐりや動物園も楽しめるよ。",
       desc: "晴れた日は、文化と自然を一度に楽しめる上野恩賜公園へ。<br>歴史ある美術館や動物園を巡ったり、池の周りをゆっくり散歩したり、楽しみ方はいろいろ。<br>特に陽射しの中できらめく不忍池の風景は、ちょっとした旅気分を味わえます。<br>晴れ空のもと、都会にいながらのんびりと自然と文化に触れられる、贅沢な一日を過ごしてみてください。",
@@ -93,7 +93,7 @@ const spots = {
     },
     { id: "odaiba", 
       name: "お台場海浜公園", 
-      pin: "/images/pin-sunny.png",
+      pin: "images/pin-sunny.png",
       image: "images/odaiba.webp", 
       text: "青空と海を一度に味わえる、開放感バツグンのリゾート空間。砂浜でのんびり、都会の非日常を満喫しよう。",
       desc: "海と空と風。お台場海浜公園は、晴れの日の爽快感を全身で味わえるスポット！<br>東京湾を見渡せる開放的なビーチで、波の音を聞きながらのんびり過ごすのもよし、レインボーブリッジを眺めながら写真を撮るのもよし。<br>晴れた空の下では、どこを切り取っても絵になる景色が広がっています。<br>ちょっと遠出した気分になりたいときに、ぴったりの場所です。",
@@ -114,7 +114,7 @@ const spots = {
   cloudy: [
     { id: "rokugienn", 
       name: "六義園", 
-      pin: "/images/pin-cloudy.png",
+      pin: "images/pin-cloudy.png",
       image: "images/rokugienn.webp", 
       text: "しっとり落ち着いた緑に包まれて、静かな庭園散歩。曇りの日の空気が和の美しさを引き立てる。",
       desc: "江戸の風情を残す回遊式庭園「六義園」は、曇り空の日にこそ訪れてほしい場所です。<br>強い日差しがない曇りの日は、広い庭園をゆったり歩くのにちょうど良い気候。<br>池の水面にうっすら映る空や、しっとりとした緑の苔の美しさが引き立つのも、こんな静かな日ならでは。<br>時間がゆっくり流れるような感覚に包まれながら、静けさの中で季節の移ろいを感じてみてください。", 
@@ -133,7 +133,7 @@ const spots = {
     },
     { id: "soramachi", 
       name: "ソラマチ", 
-      pin: "/images/pin-cloudy.png",
+      pin: "images/pin-cloudy.png",
       image: "images/soramachi.webp", 
       text: "東京スカイツリーのふもとで、グルメもショッピングも満喫。曇りの日もゆったり遊べる複合スポット。",
       desc: "東京スカイツリーの足元に広がる商業施設「ソラマチ」は、曇りでもしっかり楽しめる全天候型スポット。<br>300以上のお店にグルメ、雑貨、スイーツ、さらにはプラネタリウムまで揃っていて、1日中いても飽きない空間です。<br>外が曇っていても、館内は明るくて快適。雨が降ってきても安心して遊べます。<br>気分がふわっと晴れるような、お買い物やグルメの時間をどうぞ。", 
@@ -152,7 +152,7 @@ const spots = {
     },
     { id: "arisugawa", 
       name: "有栖川宮記念公園・記念館", 
-      pin: "/images/pin-cloudy.png",
+      pin: "images/pin-cloudy.png",
       image: "images/arisu.jpg", 
       text: "都会のオアシスで、静けさにひたりながらゆるやかに読書やひとやすみ。曇り空が心地よく感じる場所。",
       desc: "麻布の丘に静かに佇む「有栖川宮記念館」は、曇りの日にふらりと訪れるのにぴったりな場所。<br>クラシカルな洋館のたたずまいは、どんよりした空にも不思議とよく映えて、ちょっと異国を旅するような気分に。<br>公園内も自然が豊かで、曇りの日特有の空気の湿り気が、緑や木の香りを際立たせてくれます。<br>喧騒を離れて、心を落ち着けたいときにおすすめです。", 
@@ -173,7 +173,7 @@ const spots = {
   rainy: [
     { id: "tokyoeki", 
       name: "東京ステーションギャラリー", 
-      pin: "/images/pin-rainy.png",
+      pin: "images/pin-rainy.png",
       image: "images/tokyoeki.webp", 
       text: "歴史ある駅舎でアートと出会う雨の日。静かな時間と非日常がすぐそこに。",
       desc: "赤レンガ駅舎の中にひっそりと佇む「東京ステーションギャラリー」は、雨の日にこそ訪れたいアート空間。<br>駅直結なので濡れる心配もなく、重厚な建築と静かな展示空間に包まれて、日常からすっと抜け出せる。<br>ガラス窓越しに眺める雨の東京駅もまた、美しくてドラマチック。<br>慌ただしい旅の途中で、ほっと心を休めたい人におすすめです。", 
@@ -192,7 +192,7 @@ const spots = {
     },
     { id: "hikarie", 
       name: "渋谷ヒカリエ", 
-      pin: "/images/pin-rainy.png",
+      pin: "images/pin-rainy.png",
       image: "images/tokyohikarie.webp", 
       text: "駅直結で雨でも安心。ショップやカフェ、ギャラリーも充実で1日中楽しめる!",
       desc: "渋谷駅直結の大型複合施設「ヒカリエ」は、雨でも快適に過ごせる嬉しいスポット。<br>最新のファッションや雑貨、美味しいグルメ、そしてアートまで一度に楽しめるから、つい長居しちゃう。<br>特に高層階から見る雨にけぶる東京の街は、ちょっと幻想的で、映画のワンシーンみたい。<br>「今日は一日、屋内でゆっくり楽しもう」って日にぴったりの都会的な場所です。", 
@@ -211,7 +211,7 @@ const spots = {
     },
     { id: "foramu", 
       name: "東京国際フォーラム", 
-      pin: "/images/pin-rainy.png",
+      pin: "images/pin-rainy.png",
       image: "images/tokyokokusaiforamu.webp", 
       text: "雨音が響く大きなガラス空間で、イベントやカフェめぐり。都会の中の上質なひとときを。",
       desc: "ガラスと鉄骨が織りなす壮麗な建築美。東京国際フォーラムは、雨の日の東京をスタイリッシュに味わえる場所。<br>屋内の回廊を歩くだけでも非日常感たっぷりで、外の雨音がガラス越しにやさしく響くその雰囲気が心地いい。<br>イベントや展示が開かれていることも多く、ふらっと立ち寄っても新しい発見があるかも。<br>雨の日ならではの、静かで特別な時間が流れる空間です。", 
@@ -320,7 +320,7 @@ if (spot) {
         <h3>みんなのコメント</h3>
         <div class="comment">
             <div class="user-icon">
-                <img src="/images/user_icon.png" alt="ユーザーアイコン">
+                <img src="images/user_icon.png" alt="ユーザーアイコン">
             </div>
             <div class="comment-desc">
                 <div class="evaluation" id="evaluation-1"></div>
@@ -329,7 +329,7 @@ if (spot) {
         </div>
         <div class="comment">
             <div class="user-icon">
-                <img src="/images/user_icon.png" alt="ユーザーアイコン">
+                <img src="images/user_icon.png" alt="ユーザーアイコン">
             </div>
             <div class="comment-desc">
                 <div class="evaluation" id="evaluation-2"></div>
@@ -338,7 +338,7 @@ if (spot) {
         </div>
         <div class="comment">
             <div class="user-icon">
-                <img src="/images/user_icon.png" alt="ユーザーアイコン">
+                <img src="images/user_icon.png" alt="ユーザーアイコン">
             </div>
             <div class="comment-desc">
                 <div class="evaluation" id="evaluation-3"></div>
@@ -380,7 +380,7 @@ if (spot) {
     if (evalDiv) {
       let stars = "";
       for (let i = 1; i <= 5; i++) {
-        stars += `<img src="/images/${i <= spot[key] ? "star_yellow" : "star_shadow"}.png" alt="星の画像" class="star">`;
+        stars += `<img src="images/${i <= spot[key] ? "star_yellow" : "star_shadow"}.png" alt="星の画像" class="star">`;
       }
       evalDiv.innerHTML = stars;
     }
