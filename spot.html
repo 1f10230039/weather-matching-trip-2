@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="観光地の詳細を紹介します。">
+    <title>空色マッチング旅~東京~ | 観光地の詳細</title>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kosugi+Maru&family=Lily+Script+One&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/spot.css">
+</head>
+<body>
+    <header id="site-top">
+        <!--メニューボタン-->
+        <button id="menu-open" class="btn-menu" aria-label="メニュー">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <div class="btn-text">MENU</div>
+        </button>
+        <div class="menu-container">
+            <!--閉じるボタン-->
+            <button id="menu-close" class="btn-close" aria-label="閉じる">
+                <span class="bar-close-1"></span>
+                <span class="bar-close-2"></span>
+                <div class="btn-text">CLOSE</div>
+            </button>
+            <!--メニューパネル-->
+            <ul class="menu">
+                <li><h2 class="logo align-center">Weather Matching Trip</h2></li>
+                <li class="sub-menu-title">天気を選ぶ
+                    <ul>
+                        <li id="sub-menu-today" title="今日のおすすめ"></li>
+                        <li><a href="/index.html#sunny-content" title="晴れの日のおすすめ">SUNNY</a></li>
+                        <li><a href="/index.html#cloudy-content" title="曇りの日のおすすめ">CLOUDY</a></li>
+                        <li><a href="/index.html#rainy-content" title="雨の日のおすすめ">RAINY</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="header-container">
+            <!--ロゴ-->
+            <a href="index.html" title="ホームへ戻る"><h1 class="logo">Weather Matching Trip</h1></a>
+            <!--メインメニュー-->
+            <div class="weather-menu">
+                <ul>
+                    <li>天気を選ぶ</li>
+                    <li class="arrow-right"><img src="/images/arrow-icon.png" alt="矢印アイコン"></li>
+                    <li id="menu-today" title="今日のおすすめ"></li>
+                    <li><a href="/index.html#sunny-content" title="晴れの日のおすすめ">SUNNY</a></li>
+                    <li><a href="/index.html#cloudy-content" title="曇りの日のおすすめ">CLOUDY</a></li>
+                    <li><a href="/index.html#rainy-content" title="雨の日のおすすめ">RAINY</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="overlay-body"></div>
+        <div id="spot-content">
+            <p>読み込み中...</p>
+        </div>
+        <div class="btn">
+            <a href="index.html" class="back-button english" title="ホームへ戻る">Go back</a>
+        </div>
+    </main>
+    <div id="to-top" class="to-top-btn" title="ページのトップへ">
+        <a href="#site-top"><img src="/images/to-top-arrow.png" alt="トップへ戻るボタン"></a>
+    </div>
+    <footer>
+        <p class="footer-logo logo">Weather Matching Trip</p>
+        <p class="footer-copy">© 2025 Weather Matching Trip. All rights reserved.</p>
+    </footer>
+    <script src="js/spot.js"></script>
+</body>
+</html>
