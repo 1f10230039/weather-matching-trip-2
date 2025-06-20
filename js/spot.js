@@ -283,19 +283,19 @@ fetch(url)
         sunny : {
         jp : "晴れ",
         icon : `<img src="images/sunny_icon.png" alt="晴れのアイコン">`,
-        link : `<a href="/index.html#sunny-content">TODAY</a>`,
+        link : `<a href="./index.html#sunny-content">TODAY</a>`,
         recomend : `#sunny-content`
         },
         cloudy : {
         jp : "曇り",
         icon : `<img src="images/cloudy_icon.png" alt="曇りのアイコン">`,
-        link : `<a href="/index.html#cloudy-content">TODAY</a>`,
+        link : `<a href="./index.html#cloudy-content">TODAY</a>`,
         recomend : `#cloudy-content`
         },
         rainy : {
         jp : "雨",
         icon : `<img src="images/rainy_icon.png" alt="雨のアイコン">`,
-        link : `<a href="/index.html#rainy-content">TODAY</a>`,
+        link : `<a href="./index.html#rainy-content">TODAY</a>`,
         recomend : `#rainy-content`
         }
     };
