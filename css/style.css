@@ -304,13 +304,13 @@ body {
     background-repeat: no-repeat;
 }
 .hero.sunny {
-    background-image: url("./images/sunny.jpg");
+    background-image: url("images/sunny.jpg");
 }
 .hero.cloudy {
-    background-image: url("./images/cloudy.jpg");
+    background-image: url("images/cloudy.jpg");
 }
 .hero.rainy {
-    background-image: url("./images/rainy.jpg");
+    background-image: url("images/rainy.jpg");
 }
 .overlay-hero {
     position: absolute;
