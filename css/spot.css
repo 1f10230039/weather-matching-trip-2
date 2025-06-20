@@ -118,6 +118,7 @@ h1 {
     font-size: 12px;
     position: absolute;
     top: 35px;
+    color: #000;
 }
 .btn-menu {
     position: fixed;
