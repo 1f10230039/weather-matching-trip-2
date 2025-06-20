@@ -18,6 +18,13 @@ overlay.addEventListener("click", () => {
   menuPanel.classList.remove("panel-open");
   overlay.classList.remove("open");
 });
+const menuLinks = document.querySelectorAll(".menu a");
+menuLinks.forEach(link => {
+  link.addEventListener("click", () => {
+    menuPanel.classList.remove("panel-open");
+    overlay.classList.remove("open");
+  });
+});
 // スクロールしたら表示
 window.addEventListener("scroll", function() {
     const menuBtn = document.getElementById("menu-open");
