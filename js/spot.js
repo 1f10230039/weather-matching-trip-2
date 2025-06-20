@@ -88,7 +88,7 @@ const spots = {
       businessHours: "5:00～2300",
       admissionFree: "無料",
       admissionFreeDetail: "",
-      officialSite: "https://www.tokyo-park.or.jp/park/yoyogi/",
+      officialSite: "https://www.kensetsu.metro.tokyo.lg.jp/jimusho/toubuk/ueno",
       commentText1: "美術館めぐりのあとにのんびり散歩。晴れの日は花も池もきらきらしていて幸せな気持ちに。",
       commentText2: "緑も広いし、ベンチも多くて一人でも過ごしやすい。",
       commentText3: "子ども連れでも安心。動物園も近くて飽きない一日が過ごせる！",
